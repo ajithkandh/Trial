@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-16T19:36:01 IST" name="Suite" finished-at="2023-02-16T19:37:33 IST" duration-ms="92283">
+    <groups>
+    </groups>
+    <test started-at="2023-02-16T19:36:01 IST" name="Cross" finished-at="2023-02-16T19:36:41 IST" duration-ms="39720">
+      <class name="com.naresh.sj.scripts.CrossBrowsing">
+        <test-method is-config="true" signature="Launch(java.lang.String)[pri:0, instance:com.naresh.sj.scripts.CrossBrowsing@5d534f5d]" started-at="2023-02-16T19:36:01 IST" name="Launch" finished-at="2023-02-16T19:36:26 IST" duration-ms="25059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Send_Data()[pri:0, instance:com.naresh.sj.scripts.CrossBrowsing@5d534f5d]" started-at="2023-02-16T19:36:26 IST" name="Send_Data" finished-at="2023-02-16T19:36:38 IST" duration-ms="11775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Send_Data -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.naresh.sj.scripts.CrossBrowsing@5d534f5d]" started-at="2023-02-16T19:36:38 IST" name="tear_down" finished-at="2023-02-16T19:36:41 IST" duration-ms="2780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.naresh.sj.scripts.CrossBrowsing -->
+    </test> <!-- Cross -->
+    <test started-at="2023-02-16T19:36:41 IST" name="cross2" finished-at="2023-02-16T19:37:33 IST" duration-ms="52372">
+      <class name="com.naresh.sj.scripts.CrossBrowsing">
+        <test-method is-config="true" signature="Launch(java.lang.String)[pri:0, instance:com.naresh.sj.scripts.CrossBrowsing@76a4ebf2]" started-at="2023-02-16T19:36:41 IST" name="Launch" finished-at="2023-02-16T19:37:25 IST" duration-ms="44074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Send_Data()[pri:0, instance:com.naresh.sj.scripts.CrossBrowsing@76a4ebf2]" started-at="2023-02-16T19:37:25 IST" name="Send_Data" finished-at="2023-02-16T19:37:31 IST" duration-ms="5799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Send_Data -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:com.naresh.sj.scripts.CrossBrowsing@76a4ebf2]" started-at="2023-02-16T19:37:31 IST" name="tear_down" finished-at="2023-02-16T19:37:33 IST" duration-ms="2489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.naresh.sj.scripts.CrossBrowsing -->
+    </test> <!-- cross2 -->
+  </suite> <!-- Suite -->
+</testng-results>
